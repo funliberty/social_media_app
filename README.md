@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the social media app.
 
-Things you may want to cover:
+The intention of this app is to be used as educational purposes, it is not yet ready for production use.
+It is part of the Ruby on Rails course of the non profit organization Funliberty.
+Please feel free to use this project for yourself for studies.
 
-* Ruby version
+# Installation steps
 
-* System dependencies
+- Install [rbenv](https://github.com/rbenv/rbenv)
 
-* Configuration
+- Install ruby 3.3.6 using rbenv
 
-* Database creation
+run
+```
+  rbenv install 3.3.6
+```
 
-* Database initialization
+- Install the gems
 
-* How to run the test suite
+run
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle install
+```
 
-* Deployment instructions
+- Run the app
 
-* ...
+```
+rails s
+```
