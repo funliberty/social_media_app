@@ -1,0 +1,17 @@
+<h2> =) </h2>
+ <%= form_with model: post do |form| %>
+  <div>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+  <div>
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+  <div>
+    <%= form.label :media_url %>
+    <%= form.text_field :media_url %>
+  </div>
+
+ <%= form.submit %>
+<% end %>
